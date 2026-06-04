@@ -1,0 +1,223 @@
+{
+  "spatial": [],
+  "triangular": [
+    {
+      "type": "TRIANGULAR",
+      "pairs": [
+        "EUR/USD",
+        "USD/JPY",
+        "EUR/JPY"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "JPY"
+      ],
+      "direction": "EUR \u2192 USD \u2192 JPY \u2192 EUR",
+      "cross_rate": 245.20674,
+      "direct_rate": 160.48473,
+      "profit_pct": 52.491,
+      "timestamp": "2026-01-16T20:55:37.800664"
+    },
+    {
+      "type": "TRIANGULAR",
+      "pairs": [
+        "GBP/USD",
+        "USD/JPY",
+        "GBP/JPY"
+      ],
+      "currencies": [
+        "GBP",
+        "USD",
+        "JPY"
+      ],
+      "direction": "GBP \u2192 USD \u2192 JPY \u2192 GBP",
+      "cross_rate": 179.0252,
+      "direct_rate": 106.296,
+      "profit_pct": 68.121,
+      "timestamp": "2026-01-16T20:55:37.800677"
+    },
+    {
+      "type": "TRIANGULAR",
+      "pairs": [
+        "EUR/USD",
+        "USD/CHF",
+        "EUR/CHF"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CHF"
+      ],
+      "direction": "EUR \u2192 USD \u2192 CHF \u2192 EUR",
+      "cross_rate": 1.21275,
+      "direct_rate": 0.87351,
+      "profit_pct": 38.536,
+      "timestamp": "2026-01-16T20:55:37.800687"
+    },
+    {
+      "type": "TRIANGULAR",
+      "pairs": [
+        "GBP/USD",
+        "USD/CHF",
+        "GBP/CHF"
+      ],
+      "currencies": [
+        "GBP",
+        "USD",
+        "CHF"
+      ],
+      "direction": "GBP \u2192 CHF \u2192 USD \u2192 GBP",
+      "cross_rate": 0.88542,
+      "direct_rate": 0.95291,
+      "profit_pct": 6.782,
+      "timestamp": "2026-01-16T20:55:37.800690"
+    },
+    {
+      "type": "TRIANGULAR",
+      "pairs": [
+        "AUD/USD",
+        "USD/JPY",
+        "AUD/JPY"
+      ],
+      "currencies": [
+        "AUD",
+        "USD",
+        "JPY"
+      ],
+      "direction": "AUD \u2192 USD \u2192 JPY \u2192 AUD",
+      "cross_rate": 130.72287,
+      "direct_rate": 108.14621,
+      "profit_pct": 20.576,
+      "timestamp": "2026-01-16T20:55:37.800694"
+    },
+    {
+      "type": "TRIANGULAR",
+      "pairs": [
+        "EUR/GBP",
+        "GBP/USD",
+        "EUR/USD"
+      ],
+      "currencies": [
+        "EUR",
+        "GBP",
+        "USD"
+      ],
+      "direction": "EUR \u2192 USD \u2192 GBP \u2192 EUR",
+      "cross_rate": 0.83059,
+      "direct_rate": 1.29981,
+      "profit_pct": 35.799,
+      "timestamp": "2026-01-16T20:55:37.800697"
+    },
+    {
+      "type": "TRIANGULAR",
+      "pairs": [
+        "EUR/GBP",
+        "GBP/JPY",
+        "EUR/JPY"
+      ],
+      "currencies": [
+        "EUR",
+        "GBP",
+        "JPY"
+      ],
+      "direction": "EUR \u2192 JPY \u2192 GBP \u2192 EUR",
+      "cross_rate": 93.0344,
+      "direct_rate": 160.48473,
+      "profit_pct": 41.729,
+      "timestamp": "2026-01-16T20:55:37.800700"
+    },
+    {
+      "type": "TRIANGULAR",
+      "pairs": [
+        "EUR/AUD",
+        "AUD/JPY",
+        "EUR/JPY"
+      ],
+      "currencies": [
+        "EUR",
+        "AUD",
+        "JPY"
+      ],
+      "direction": "EUR \u2192 AUD \u2192 JPY \u2192 EUR",
+      "cross_rate": 247.11926,
+      "direct_rate": 160.48473,
+      "profit_pct": 53.683,
+      "timestamp": "2026-01-16T20:55:37.800703"
+    },
+    {
+      "type": "TRIANGULAR",
+      "pairs": [
+        "GBP/AUD",
+        "AUD/JPY",
+        "GBP/JPY"
+      ],
+      "currencies": [
+        "GBP",
+        "AUD",
+        "JPY"
+      ],
+      "direction": "GBP \u2192 AUD \u2192 JPY \u2192 GBP",
+      "cross_rate": 275.25787,
+      "direct_rate": 106.296,
+      "profit_pct": 158.654,
+      "timestamp": "2026-01-16T20:55:37.800706"
+    }
+  ],
+  "statistical": [
+    {
+      "type": "STATISTICAL",
+      "asset1": "BTC_USDT",
+      "asset2": "BNB_USDT",
+      "correlation": 0.921,
+      "z_score": -5.237,
+      "action": "BUY BTC_USDT, SELL BNB_USDT",
+      "expected_profit_pct": 2.619,
+      "timestamp": "2026-01-16T20:55:37.827482"
+    },
+    {
+      "type": "STATISTICAL",
+      "asset1": "ETH_USDT",
+      "asset2": "BNB_USDT",
+      "correlation": 0.804,
+      "z_score": -2.803,
+      "action": "BUY ETH_USDT, SELL BNB_USDT",
+      "expected_profit_pct": 1.402,
+      "timestamp": "2026-01-16T20:55:37.833951"
+    }
+  ],
+  "cross_market": [
+    {
+      "type": "CROSS_MARKET",
+      "crypto_pair": "BTC_USDT",
+      "forex_pair": "EUR_USD",
+      "synthetic_pair": "BTC/EUR",
+      "synthetic_price": 124093.41,
+      "timestamp": "2026-01-16T20:55:37.849931"
+    },
+    {
+      "type": "CROSS_MARKET",
+      "crypto_pair": "ETH_USDT",
+      "forex_pair": "EUR_USD",
+      "synthetic_pair": "ETH/EUR",
+      "synthetic_price": 4281.79,
+      "timestamp": "2026-01-16T20:55:37.849941"
+    },
+    {
+      "type": "CROSS_MARKET",
+      "crypto_pair": "BTC_USDT",
+      "forex_pair": "GBP_USD",
+      "synthetic_pair": "BTC/GBP",
+      "synthetic_price": 90600.48,
+      "timestamp": "2026-01-16T20:55:37.849944"
+    },
+    {
+      "type": "CROSS_MARKET",
+      "crypto_pair": "ETH_USDT",
+      "forex_pair": "GBP_USD",
+      "synthetic_pair": "ETH/GBP",
+      "synthetic_price": 3126.13,
+      "timestamp": "2026-01-16T20:55:37.849946"
+    }
+  ]
+}
