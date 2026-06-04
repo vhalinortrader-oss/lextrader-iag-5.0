@@ -1,0 +1,43 @@
+{
+  "system_name": "VHALINOR.IAG",
+  "version": "4.5.0",
+  "full_name": "Virtual Hybrid Advanced Learning Intelligence Neural Optimized Reasoning",
+  "system_mode": "development",
+  "performance_mode": "balanced",
+  "paths": {
+    "base": "./vhalinor_iag",
+    "quantum": "./quantum",
+    "models": "./models",
+    "logs": "./logs",
+    "data": "./data"
+  },
+  "neural_config": {
+    "max_neurons": 10000,
+    "max_connections": 50000,
+    "activation_threshold": 0.5,
+    "learning_rate": 0.001
+  },
+  "memory_config": {
+    "capacity_mb": 100,
+    "cache_size": 1000,
+    "cleanup_threshold": 0.8
+  },
+  "quantum_config": {
+    "enabled": true,
+    "qubits": 5,
+    "depth": 3,
+    "entanglement_threshold": 0.7
+  },
+  "ml_config": {
+    "enabled": true,
+    "batch_size": 100,
+    "training_interval": 3600,
+    "anomaly_threshold": -0.5
+  }
+}
+{
+  "run_mode": "full",
+  "auto_backup": true,
+  "performance_mode": "balanced",
+  "memory_limit_mb": 2048
+}

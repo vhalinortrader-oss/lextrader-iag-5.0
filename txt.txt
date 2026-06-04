@@ -1,0 +1,34 @@
+modulo_emocional/
+├── __init__.py
+├── regulacao/
+│   ├── __init__.py
+│   ├── emocional_manager.py
+│   ├── estados_emocionais.py
+│   └── estrategias_regulacao.py
+├── motivacao/
+│   ├── __init__.py
+│   ├── sistema_recompensa.py
+│   ├── objetivos_metas.py
+│   └── drivers_motivacionais.py
+├── aprendizado/
+│   ├── __init__.py
+│   ├── continuo.py
+│   └── evolucional.py
+├── social/
+│   ├── __init__.py
+│   ├── amabilidade.py
+│   ├── empatia.py
+│   └── carinho_cuidados.py
+├── saude/
+│   ├── __init__.py
+│   ├── gestao_estresse.py
+│   ├── autocuidado.py
+│   └── monitoramento_saude.py
+├── atencao/
+│   ├── __init__.py
+│   └── foco_total.py
+├── core/
+│   ├── __init__.py
+│   └── processador_central.py
+├── config.py
+└── utils.py

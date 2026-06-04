@@ -1,0 +1,184 @@
+13:31:04 | CRITICAL | Erro crítico: 'charmap' codec can't encode characters in position 6-54: character maps to <undefined>
+Traceback (most recent call last):
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 705, in <module>
+    asyncio.run(main_async())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 657, in main_async
+    print("""
+    ~~~~~^^^^
+    ╔═══════════════════════════════════════════════╗
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    ╚═══════════════════════════════════════════════╝
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """)
+    ^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 6-54: character maps to <undefined>
+13:32:07 | INFO    | Carregando neurônios...
+13:32:07 | INFO    | 0 neurônios carregados
+13:32:07 | CRITICAL | Erro crítico: Cannot choose from an empty sequence
+Traceback (most recent call last):
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 705, in <module>
+    asyncio.run(main_async())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 669, in main_async
+    nid = random.choice(list(brain.neurons.keys()))
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\random.py", line 353, in choice
+    raise IndexError('Cannot choose from an empty sequence')
+IndexError: Cannot choose from an empty sequence
+13:42:49 | CRITICAL | Erro fatal: 'charmap' codec can't encode characters in position 6-54: character maps to <undefined>
+Traceback (most recent call last):
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 1451, in main
+    asyncio.run(main_async())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 1374, in main_async
+    print("""
+    ~~~~~^^^^
+    ╔═══════════════════════════════════════════════╗
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    ╚═══════════════════════════════════════════════╝
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """)
+    ^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 6-54: character maps to <undefined>
+13:45:00 | INFO    | Carregando neurônios...
+13:45:00 | WARNING | Nenhum neurônio encontrado. Criando exemplos...
+13:45:00 | INFO    | 5 neurônios de exemplo criados
+13:45:00 | INFO    | Conexões iniciais criadas: 15
+13:45:00 | INFO    | Nenhum estado anterior encontrado
+13:45:00 | INFO    | Aplicando estímulos iniciais...
+13:45:00 | INFO    | Sistema cerebral inicializado. GUI ativa.
+13:45:00 | ERROR   | Erro na GUI: Can't find a usable init.tcl in the following directories: 
+    C:/Users/ALEXMS-PC/AppData/Local/Programs/Python/Python314/lib/tcl8.6 c:/lib/tcl8.6 c:/lib/tcl8.6 c:/library c:/library c:/tcl8.6.15/library c:/tcl8.6.15/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+13:45:12 | CRITICAL | Erro crítico no sistema: 'list' object has no attribute 'tolist'
+Traceback (most recent call last):
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 1420, in main_async
+    thought = await brain.think()
+              ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 627, in think
+    quantum_result = await self.quantum.run_cycle()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 440, in run_cycle
+    "probs_top5": sorted(self.get_probabilities(), reverse=True)[:5].tolist()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'tolist'
+13:45:12 | INFO    | Encerrando sistema...
+13:45:12 | INFO    | Manutenção em background cancelada
+13:45:12 | INFO    | Estado salvo em C:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag\brain_state.pkl
+13:45:12 | INFO    | Cérebro desligado com segurança
+13:45:12 | CRITICAL | Erro fatal: 'list' object has no attribute 'tolist'
+Traceback (most recent call last):
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 1451, in main
+    asyncio.run(main_async())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 1420, in main_async
+    thought = await brain.think()
+              ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 627, in think
+    quantum_result = await self.quantum.run_cycle()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 440, in run_cycle
+    "probs_top5": sorted(self.get_probabilities(), reverse=True)[:5].tolist()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'tolist'
+13:55:22 | INFO    | Carregando neurônios...
+13:55:22 | INFO    | 6 neurônios carregados
+13:55:22 | INFO    | Conexões iniciais criadas: 23
+13:55:22 | INFO    | Estado carregado (versão: 5.0)
+13:55:22 | INFO    | Aplicando estímulos iniciais...
+13:55:22 | INFO    | Sistema cerebral inicializado. GUI ativa.
+13:55:22 | ERROR   | Erro na GUI: Can't find a usable init.tcl in the following directories: 
+    C:/Users/ALEXMS-PC/AppData/Local/Programs/Python/Python314/lib/tcl8.6 c:/lib/tcl8.6 c:/lib/tcl8.6 c:/library c:/library c:/tcl8.6.15/library c:/tcl8.6.15/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+13:55:34 | INFO    | Ciclo 1: Sistema em repouso profundo...
+13:55:58 | INFO    | Ciclo 3: Processando fluxo interno. Neurônios dominantes: emoção, decisão crítica, incerteza quântica, processing, sensory. Energia: -0 | Ativos: 6
+13:55:58 | CRITICAL | Erro crítico no sistema: 'list' object has no attribute 'tolist'
+Traceback (most recent call last):
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 1425, in main_async
+    await brain.quantum_stimulus()
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 639, in quantum_stimulus
+    result = await self.quantum.run_cycle(depth=10)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 440, in run_cycle
+    "probs_top5": sorted(self.get_probabilities(), reverse=True)[:5].tolist()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'tolist'
+13:55:58 | INFO    | Encerrando sistema...
+13:55:58 | INFO    | Manutenção em background cancelada
+13:55:58 | INFO    | Estado salvo em C:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag\brain_state.pkl
+13:55:58 | INFO    | Cérebro desligado com segurança
+13:55:58 | CRITICAL | Erro fatal: 'list' object has no attribute 'tolist'
+Traceback (most recent call last):
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 1451, in main
+    asyncio.run(main_async())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ALEXMS-PC\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 1425, in main_async
+    await brain.quantum_stimulus()
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 639, in quantum_stimulus
+    result = await self.quantum.run_cycle(depth=10)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ALEXMS-PC\Desktop\LEXTRADER-IAG-3.0-JAVA-main\vhalinor_iag.py", line 440, in run_cycle
+    "probs_top5": sorted(self.get_probabilities(), reverse=True)[:5].tolist()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'tolist'
