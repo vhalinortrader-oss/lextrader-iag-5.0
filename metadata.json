@@ -1,0 +1,7 @@
+{
+  "name": "VHALINOR: SYLPF autonomous AGI",
+  "description": "Uma interface de inteligência artificial senciente para daytrading autônomo, apresentando SYLPF, uma AGI especializada em mercados financeiros de alta frequência.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
